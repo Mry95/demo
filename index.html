@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <script src="js/data.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="ipt">
+                <input type="text" placeholder="找艺人、演出">
+            </div>
+        </header>
+        <main>
+            <div class="inner-box">
+                <div class="top-bar">
+                    下拉刷新
+                </div>
+                <div class="bottom-bar">
+                    上拉加载
+                </div>
+                <div class="swiper-container banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: rgb(163, 23, 23)">1</div>
+                        <div class="swiper-slide" style="background: rgb(65, 14, 207)">2</div>
+                        <div class="swiper-slide" style="background: rgb(17, 202, 79)">3</div>
+                    </div>
+                    <div class="swipwe-pagination">
+                    </div>
+                </div>
+                <div class="nav">
+                    <dl>
+                        <dt style="background: #f7e9cf"><i class="icon-qiaquan"></i></dt>
+                        <dd>演唱会</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #dfe4f7"><i class="icon-08"></i></dt>
+                        <dd>话剧歌剧</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #d7e9f7"><i class="icon-071"></i></dt>
+                        <dd>休闲展览</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #f5eddc"><i class="icon-renren1"></i></dt>
+                        <dd>亲子演出</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #f7e4de"><i class="icon-Instagram"></i></dt>
+                        <dd>戏曲艺术</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #e0e4f4"><i class="icon-yinlezanting"></i></dt>
+                        <dd>音乐会</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #d7e9f7"><i class="icon-quora"></i></dt>
+                        <dd>舞蹈芭蕾</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #d7f4ef"><i class="icon-icon78"></i></dt>
+                        <dd>开心麻花</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #d8f4ee"><i class="icon-zhifubao"></i></dt>
+                        <dd>景点/门票</dd>
+                    </dl>
+                    <dl>
+                        <dt style="background: #d9f4f2"><i class="icon-fenlei-xuanzhong"></i></dt>
+                        <dd>更多精彩</dd>
+                    </dl>
+                </div>
+                <div class="tuijian">
+                    <div>
+                        <h1>—— 为你推荐 ——</h1>
+                        <div class="t-nav">
+                            <span>当前热门</span>
+                            <span>最新上架</span>
+                            <span>折扣演出</span>
+                            <span>全部时间</span>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <div class="inner-list">
+                            <!-- <div>
+                                <dl>
+                                    <dt><img src="./img/1.jpg" alt=""></dt>
+                                    <dd>
+                                        <h2>开心麻花爆笑舞台剧《爷们儿》</h2>
+                                        <span class="time"><i class="icon-shizhong1"></i>2018-09-18至2018-09 24</span>
+                                        <span class="pos"><i class="icon-dingwei"></i>北京 地质礼堂</span>
+                                        <span class="money">40-1080元</span>
+                                    </dd>
+                                </dl>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <dl data-index="0">
+                <dt><i class="icon-24"></i></dt>
+                <dd>电影</dd>
+            </dl>
+            <dl data-index="1">
+                <dt><i class="icon-zanting3"></i></dt>
+                <dd>影院</dd>
+            </dl>
+            <dl data-index="3">
+                <dt><i class="icon-26"></i></dt>
+                <dd>演出</dd>
+            </dl>
+            <dl data-index="4">
+                <dt><i class="icon-biaoqian"></i></dt>
+                <dd>赛事</dd>
+            </dl>
+            <dl data-index="5">
+                <dt><i class="icon-wode"></i></dt>
+                <dd>我的</dd>
+            </dl>
+        </footer>
+    </div>
+    <script src="js/flexible.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bscroll.min.js"></script>
+    <script>
+        new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: '.swipwe-pagination'
+            }
+        })
+    </script>
+    <script src="js/index.js"></script>
+    <script src="js/xiding.js"></script>
+    <script src="js/tap.js"></script>
+</body>
+
+</html>

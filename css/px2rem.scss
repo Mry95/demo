@@ -1,0 +1,5 @@
+@function rem($px) {
+    @return $px / $w * 1rem; //把px单位换算成rem单位。 $designWidth ：视觉稿的宽度
+}
+
+$w:37.5px;
